@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     displayCurrentPlayer.innerHTML = currentPlayer;
                 }
             } else alert('cant go here');
+            checkBoard();
         }
     }
 
